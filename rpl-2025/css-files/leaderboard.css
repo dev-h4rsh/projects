@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.background-image {
+  object-fit: contain;
+  background-position: center;
+}
+
+/* header-section */
+.header-section{
+  margin-top: 10px;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  gap: 1px;
+}
+
+.main-header{
+  font-size:24px;
+}
+
+.second-header {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+/* cap css */
+.cap-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orange-cap{
+  width: 120px;
+}
+
+/* leader-board  title*/
+
+.leaderboard-title{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.leaderboard-img{
+  height: 65px;
+}
+
+/* leaderboard */
+
+.dealership-leaderboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  gap: 10px;
+}
+
+/* upper team ranks */
+
+.team-rank-container{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+}
+
+.rank-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.rank{
+  height: 50px;
+}
+
+.rank-info{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 45px;
+  padding: 10px;
+  background-color: #da5400;
+}
+
+.team-score-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 65px;
+  background-color: rgba(255, 255, 255); 
+}
+
+.team-score{
+  font-size: 20px;
+  font-weight: 700;
+  color: #da5400;
+}
+
+
+/* lower team ranks */
+
+.lower-team-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+.low-rank{
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-weight:700;
+}
+
+.lower-rank-team-name{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 35px;
+  background-color: #da5400c2;
+  padding: 10px;
+}
+
+.lower-dealership-name{
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lower-team-name{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lower-team-score-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  padding-left: 2px;
+  padding-right: 4px;
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.low-score{
+  font-size: 20px;
+  font-weight: 700;
+  color: #da5400c2;
+}
+
+
+
+
