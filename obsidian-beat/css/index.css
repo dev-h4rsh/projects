@@ -1,0 +1,115 @@
+:root {
+  --main-color: #141414;
+  --secondary-color: #d6d5c9;
+  --tertiary-color: #540d6e;
+  --quaternary-color: #403d39;
+}
+
+body {
+  font-family:DM Sans, sans-serif;
+  background-color:  var(--secondary-color);
+  color: var(--main-color);
+  overflow: hidden;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main-page{
+  align-items: left;
+  overflow: hidden;
+}
+
+.main-head{
+  margin: 0;
+  padding: 0;
+  font-family:DM Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  pointer-events: none;
+}
+
+.composing-button
+{
+
+  font-family: DM Sans, sans-serif;
+  background-color: #747474aa;
+  color: var(--main-color);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 190px;
+  font-size:17px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+.composing-button:hover{
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  box-shadow: 0 0 10px var(--tertiary-color);
+  transform: translateY(-5px);
+}
+
+.about-info{
+  display: flex;
+  position: absolute;
+  bottom: 260px;
+  padding: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--quaternary-color);
+  font-family: monospace;
+}
+
+.index-img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the images */
+  align-items: flex-end; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw; /* Ensures full width */
+  height: 250px; /* Controls the height */
+  overflow: hidden; /* Prevents any unwanted space */
+}
+
+/* Images will adjust to fully cover their section */
+.index-img img {
+  height: 100%;
+  width: 33.33vw; /* Divides the screen into three equal parts */
+  object-fit: cover; /* Ensures the images fully cover the space */
+}
+
+
+/*  images  */
+.index-img-one{
+  height: 200px;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+    object-position: 0% 25%;
+}
+
+.index-img-two{
+  height: 200px;
+  width: 500px; 
+  margin: 0;
+  padding: 0; 
+  object-fit: cover;
+}
+
+.index-img-three{
+  object-fit: cover;
+  object-position: top;  
+  height: 200px;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
